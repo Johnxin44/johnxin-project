@@ -1,0 +1,85 @@
+.image{
+    color: blue;
+}
+.head{
+    color: brown;
+    background: orange;
+    font-size: xx-large;
+    font-weight: 500;
+    padding-bottom: 0pc;
+    width: max-content;
+    border: 0px;
+    border-radius: 0fr;
+}
+.head{
+    color: purple;
+}
+.bigshow{
+    color: gold;
+    background: yellowgreen;
+    font-size: xx-large;
+    font-weight: 500;
+    padding-bottom: 0pc;
+    width: max-content;
+    border: 0pt;
+    border-radius: 0rem;
+}
+.baby{
+    color: darkgreen;
+    background: lawngreen;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 0in;
+    width: min-content;
+    border: 0cm;
+    border-radius: 0em;
+}
+.fish{
+    color: chocolate;
+    background: yellow;
+    font-size: medium;
+    font-weight: lighter;
+    padding-bottom: 0ch;
+    width: 0em;
+    border: 0in;
+    border-radius: 0mm;
+
+}
+.cotton{
+    color: tan;
+    background: hotpink;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-bottom: 0cm;
+    width: fit-content;
+    border: 0em;
+    border-radius: 0fr;
+}
+.goat{
+    color: darkred;
+    background: yellow;
+    font-size: inherit;
+    font-weight: initial;
+    padding-bottom: 0vmax;
+    width: 0vw;
+    border: magenta;
+    border-radius: 0vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
