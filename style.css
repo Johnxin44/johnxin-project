@@ -1,85 +1,387 @@
-.image{
-    color: blue;
-}
-.head{
-    color: brown;
-    background: orange;
-    font-size: xx-large;
-    font-weight: 500;
-    padding-bottom: 0pc;
-    width: max-content;
-    border: 0px;
-    border-radius: 0fr;
-}
-.head{
-    color: purple;
-}
-.bigshow{
-    color: gold;
-    background: yellowgreen;
-    font-size: xx-large;
-    font-weight: 500;
-    padding-bottom: 0pc;
-    width: max-content;
-    border: 0pt;
-    border-radius: 0rem;
-}
-.baby{
-    color: darkgreen;
-    background: lawngreen;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-bottom: 0in;
-    width: min-content;
-    border: 0cm;
-    border-radius: 0em;
-}
-.fish{
-    color: chocolate;
-    background: yellow;
-    font-size: medium;
-    font-weight: lighter;
-    padding-bottom: 0ch;
-    width: 0em;
-    border: 0in;
-    border-radius: 0mm;
-
-}
-.cotton{
-    color: tan;
-    background: hotpink;
-    font-size: xx-large;
-    font-weight: 900;
-    padding-bottom: 0cm;
-    width: fit-content;
-    border: 0em;
-    border-radius: 0fr;
-}
-.goat{
-    color: darkred;
-    background: yellow;
-    font-size: inherit;
-    font-weight: initial;
-    padding-bottom: 0vmax;
-    width: 0vw;
-    border: magenta;
-    border-radius: 0vmin;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                #body {
+                    margin-top: 105px;
+                }
+                /* .container {
+    background-image: url(./img/hero-1-800x1200\ \(1\).jpg);
+    width: 100%;
+} */
+                /* .navbar {
+                    opacity: 0.9;
+                    background: rgb(255, 250, 245);
+                } */
+                
+                .nav-item {
+                    font-size: 1.1rem;
+                    color: black;
+                    font-weight: 600;
+                    justify-content: space-evenly;
+                }
+                
+                .nav-link {
+                    color: black !important;
+                    text-decoration: none !important;
+                    margin-bottom: 40px;
+                }
+                
+                .nav-link:hover {
+                    border-bottom: 2px solid orangered;
+                }
+                
+                .btn {
+                    border-radius: 80px;
+                    background: orangered;
+                    font-size: 1.1rem;
+                }
+                
+                #showcase {
+                    background: rgb(255, 250, 245);
+                    color: orangered;
+                    margin-left: 630px;
+                }
+                
+                #showcase h1 {
+                    font-size: 70px;
+                    width: 700px;
+                    height: 500px;
+                }
+                
+                #showcase1 {
+                    background-image: url(./img/hero-1-800x1200\ \(1\).jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 48%;
+                    margin-top: -700px;
+                    height: 106vh;
+                }
+                
+                .py-5 {
+                    background: rgb(255, 250, 245);
+                }
+                
+                .are {
+                    color: black !important;
+                    text-decoration: none !important;
+                    margin-bottom: 40px;
+                    font-weight: 600;
+                }
+                
+                .are:hover {
+                    border-bottom: 2px solid orangered;
+                }
+                
+                .py-3 {
+                    margin-left: 450px;
+                }
+                
+                .offer {
+                    color: black !important;
+                    text-decoration: none !important;
+                    margin-bottom: 90px;
+                    font-weight: 600;
+                }
+                
+                .offer:hover {
+                    border-bottom: 2px solid orangered;
+                }
+                
+                .lead {
+                    margin-top: 40px;
+                    font-weight: 400;
+                }
+                
+                .lead3 {
+                    font-weight: 400;
+                    margin-left: -90px;
+                }
+                
+                .lead3 {
+                    font-weight: 400;
+                    margin-left: -70px;
+                }
+                
+                .lead4 {
+                    font-weight: 400;
+                    margin-left: -140px;
+                }
+                
+                .lead5 {
+                    font-weight: 400;
+                    margin-left: 20px;
+                }
+                
+                .lead6 {
+                    font-weight: 400;
+                    margin-left: -360px;
+                    margin-top: 40px;
+                }
+                
+                .lead7 {
+                    font-weight: 400;
+                    margin-left: -410px;
+                    margin-top: 75px;
+                }
+                
+                span {
+                    color: orangered;
+                }
+                
+                .btn1 {
+                    border-radius: 80px;
+                    background: rgb(247, 234, 222);
+                    font-size: 1.1rem;
+                    color: orangered;
+                    border: 2px solid orangered;
+                    margin-top: 20px;
+                    padding: 15px;
+                    margin-left: 50px;
+                    box-shadow: 2px 2px 2px 2px rgb(218, 217, 217);
+                    margin-bottom: 70px;
+                }
+                
+                .row1 {
+                    flex-direction: row;
+                    margin-left: 200px;
+                }
+                
+                .card1 {
+                    width: 450px;
+                }
+                
+                .card2 {
+                    margin-left: 350px;
+                    margin-top: -330px;
+                    width: 450px;
+                }
+                
+                .card3 {
+                    margin-left: 700px;
+                    margin-top: -380px;
+                    width: 450px;
+                }
+                
+                .btn2 {
+                    border-radius: 80px;
+                    background: orangered;
+                    font-size: 1.0rem;
+                    color: white;
+                    border: 2px solid orangered;
+                    padding: 10px 40px 10px 40px;
+                    box-shadow: 2px 2px 2px 2px rgb(218, 217, 217);
+                    margin-bottom: 70px;
+                    margin-top: 180px;
+                    margin-left: 570px;
+                }
+                
+                .mg {
+                    background-image: url(./img/cookcollective-sep-background-1800x854\ \(1\).jpg);
+                    height: 70vh;
+                    background-size: cover;
+                    margin-top: 50px;
+                }
+                
+                .clas {
+                    margin-left: 500px;
+                }
+                
+                .path {
+                    font-size: 30px;
+                    color: black !important;
+                    text-decoration: none !important;
+                    margin-bottom: 50px;
+                    font-weight: 600;
+                }
+                
+                .path:hover {
+                    border-bottom: 2px solid orangered;
+                }
+                
+                .lead8 {
+                    width: 400px;
+                    margin-top: 19px;
+                    margin-bottom: 15px;
+                }
+                
+                .btn3 {
+                    border-radius: 90px;
+                    background: rgb(247, 234, 222);
+                    font-size: 1.0rem;
+                    color: orangered;
+                    border: 2px solid orangered;
+                    padding: 10px 40px 10px 40px;
+                    box-shadow: 2px 2px 2px 2px rgb(218, 217, 217);
+                    margin-top: 20px;
+                    margin-left: 70px;
+                }
+                
+                .card4 {
+                    width: 450px;
+                    margin-left: 110px;
+                    margin-top: 70px;
+                }
+                
+                .card5 {
+                    margin-left: 530px;
+                    margin-top: -290px;
+                    width: 450px;
+                }
+                
+                .card6 {
+                    margin-left: 910px;
+                    margin-top: -300px;
+                    width: 450px;
+                }
+                
+                .h4 {
+                    color: orangered;
+                }
+                
+                .btn5 {
+                    border-radius: 90px;
+                    background: rgb(247, 234, 222);
+                    font-size: 1.0rem;
+                    color: orangered;
+                    border: 2px solid orangered;
+                    padding: 10px 40px 10px 40px;
+                    box-shadow: 2px 2px 2px 2px rgb(218, 217, 217);
+                    margin-top: 20px;
+                }
+                
+                .what {
+                    font-size: 27px;
+                    color: black !important;
+                    text-decoration: none !important;
+                    margin-bottom: 50px;
+                    font-weight: 600;
+                }
+                
+                .what:hover {
+                    border-bottom: 2px solid orangered;
+                }
+                
+                .lead10 {
+                    margin-top: 20px;
+                    font-weight: 300;
+                }
+                
+                .first {
+                    padding: 10px 90px 10px 10px;
+                }
+                
+                .checkbox {
+                    width: 15px;
+                    height: 15px;
+                    margin-left: 20px;
+                    margin-right: 10px;
+                    margin-top: 5px;
+                }
+                
+                .py-1 {
+                    margin-left: 400px;
+                }
+                
+                .btn6 {
+                    border-radius: 90px;
+                    background: rgb(247, 234, 222);
+                    font-size: 1.0rem;
+                    color: orangered;
+                    border: 2px solid orangered;
+                    padding: 10px 240px 10px 240px;
+                    box-shadow: 2px 2px 2px 2px rgb(218, 217, 217);
+                    margin-top: 20px;
+                }
+                
+                .form-control {
+                    color: orangered;
+                }
+                /* .text-center {
+                    margin-left: 50px;
+                } */
+                
+                footer {
+                    background-color: black;
+                    height: 65vh;
+                    margin-top: 50px;
+                }
+                
+                .footer {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    padding: 20px;
+                    padding-top: 50px;
+                    margin-top: 100px;
+                }
+                
+                .footer1 {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    width: 30%;
+                    color: white;
+                }
+                
+                .search1 {
+                    width: 100%;
+                    padding-top: 10px;
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                .btn1c {
+                    background-color: orangered;
+                    color: white;
+                    width: 30%;
+                    font-size: 12px;
+                    border: none;
+                }
+                
+                .hekto {
+                    font-size: 27px;
+                    color: white !important;
+                    text-decoration: none !important;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                }
+                
+                .hekto:hover {
+                    border-bottom: 2px solid orangered;
+                }
+                
+                .footer2 {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    width: 15%;
+                    margin-left: 450px;
+                }
+                
+                .cat {
+                    font-size: 15px;
+                    color: white;
+                    font-weight: 700;
+                }
+                
+                .footer3 {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    justify-content: space-between;
+                    background-color: black;
+                    padding: 10px;
+                    padding-top: 20px;
+                }
+                
+                .bigfoot {
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: white;
+                }
+                
+                .row10 {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 30%;
+                }
